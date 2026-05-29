@@ -1,0 +1,14 @@
+CREATE TABLE Customers
+(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+
+    FirstName NVARCHAR(100) NOT NULL,
+
+    LastName NVARCHAR(100) NOT NULL,
+
+    MobileNumber NVARCHAR(20) NOT NULL,
+
+    Address NVARCHAR(500) NOT NULL,
+
+    CreatedAt DATETIME DEFAULT GETDATE()
+);
