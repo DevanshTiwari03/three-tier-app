@@ -21,3 +21,18 @@ resource "google_compute_instance" "vm" {
     access_config {}
   }
 }
+terraform {
+
+backend "gcs" {
+  bucket = "rishi-terraform-state-1234"
+  prefix = "terraform/state"
+}
+
+}
+
+resource "google_compute_network" "vpc-1"{
+  name=  "vpc-1"
+  
+}
+
+

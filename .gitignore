@@ -1,0 +1,174 @@
+# =========================
+ 
+# Terraform
+ 
+# =========================
+ 
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+ 
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+ 
+.terraform.lock.hcl
+ 
+# Terraform plans
+ 
+*.tfplan
+*.plan
+ 
+# Variable files
+ 
+*.auto.tfvars
+*.auto.tfvars.json
+ 
+# Secrets
+ 
+terraform.tfvars
+terraform.tfvars.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.csr
+ 
+# Service Account Keys
+ 
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!composer.json
+ 
+# =========================
+ 
+# GCP
+ 
+# =========================
+ 
+adc.json
+application_default_credentials.json
+credentials.json
+ 
+# =========================
+ 
+# Kubernetes
+ 
+# =========================
+ 
+kubeconfig
+.kube/
+ 
+# =========================
+ 
+# NodeJS
+ 
+# =========================
+ 
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ 
+# =========================
+ 
+# Python
+ 
+# =========================
+ 
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+ 
+# =========================
+ 
+# Java
+ 
+# =========================
+ 
+target/
+*.class
+*.jar
+*.war
+ 
+# =========================
+ 
+# VS Code
+ 
+# =========================
+ 
+.vscode/
+ 
+# =========================
+ 
+# IntelliJ
+ 
+# =========================
+ 
+.idea/
+*.iml
+ 
+# =========================
+ 
+# OS Files
+ 
+# =========================
+ 
+.DS_Store
+Thumbs.db
+ 
+# =========================
+ 
+# Logs
+ 
+# =========================
+ 
+logs/
+*.log
+ 
+# =========================
+ 
+# Temporary
+ 
+# =========================
+ 
+tmp/
+temp/
+*.tmp
+ 
+# =========================
+ 
+# Build Artifacts
+ 
+# =========================
+ 
+dist/
+build/
+coverage/
+ 
+# =========================
+ 
+# Docker
+ 
+# =========================
+ 
+.docker/
+ 
+# =========================
+ 
+# Terraform Cache
+ 
+# =========================
+ 
+**/.terraform/**
+ 
